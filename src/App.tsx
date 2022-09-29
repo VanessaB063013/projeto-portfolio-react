@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Home from './components/home/Home';
+import Home from './pages/home/Home'
 import Navbar from './components/estaticos/navbar/Navbar';
 import Footer from './components/estaticos/footer/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -23,6 +23,7 @@ function App() {
     </div>
 
     <Footer/>
+  
    </Router>
    
   
