@@ -1,48 +1,82 @@
 import React from 'react';
+import './Navbar.css';
 
-import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
+
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import AccountCircle from '@material-ui/icons/AccountCircle';
-import Switch from '@material-ui/core/Switch';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormGroup from '@material-ui/core/FormGroup';
-import MenuItem from '@material-ui/core/MenuItem';
-import Menu from '@material-ui/core/Menu';
+import { Typography } from '@material-ui/core';
 import { Box } from '@mui/material';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
-function Navbar(){
-    return(
+
+
+function Navbar() {
+    return (
         <>
-         <AppBar position="static" className='cor'>
-        
-        <Toolbar>
+            <AppBar position="static">
+                <Toolbar style={{ display: "flex" }}>
 
-            <Box style={{ marginRight: "50%", color: "black" }}  >
-                <Typography variant="h5" >
-                    Portfolio
-
-                </Typography>
-            </Box>
-            <Link to='/home' className='text-decorator-none' >
-                <Box>
-                    <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer", color: "black" }}>
-                        home
-                    </Typography>
-                </Box>
-            </Link>
-        
-            
+                    <Box className="margem alinhamento">
+                        <img src="https://i.imgur.com/k6jDg8B.png" className="img-logo-nav"/>
+                    </Box>
+                    
 
 
 
-    </Toolbar>
-</AppBar>
+                    <Link to='/home' className='text-decorator-none'>
+                        <Box className="name-portfolio">
+                            <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer" }}>
+                                home
+                            </Typography>
+                        </Box>
+                    </Link>
+
+                    <Link to='/about' className='text-decorator-none'>
+                        <Box>
+                            <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer" }}>
+                                about me
+                            </Typography>
+                        </Box>
+                    </Link>
+
+                    <Link to='/technology' className='text-decorator-none'>
+                        <Box>
+                            <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer" }}>
+                                technologies
+                            </Typography>
+                        </Box>
+                    </Link>
+
+                    <Link to='/feedback' className='text-decorator-none'>
+                        <Box>
+                            <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer" }}>
+                                feedbacks
+                            </Typography>
+                        </Box>
+                    </Link>
+
+                    <Link to='/projects' className='text-decorator-none'>
+                        <Box>
+                            <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer" }}>
+                                projects
+                            </Typography>
+                        </Box>
+                    </Link>
+
+                    <Link to='/contact' className='text-decorator-none'>
+                        <Box>
+                            <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer" }}>
+                                contact me
+                            </Typography>
+                        </Box>
+                    </Link>
+
+
+
+
+                </Toolbar>
+            </AppBar>
         </>
     );
 }

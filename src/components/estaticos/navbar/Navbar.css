@@ -1,0 +1,39 @@
+.MuiAppBar-colorPrimary {
+    color: #fff;
+    background-color: #130608 !important;
+}
+
+.menu{
+   
+    
+    padding:15px;
+    font-size: 20px !important ;
+    color: #ffff !important
+   
+}
+
+
+ 
+ .text-decorator-none{
+    text-decoration: none;
+}
+
+.name-portfolio{
+    font-weight: bold!important;
+}
+
+.margem{
+    margin-right: 48%!important;
+
+}
+
+.img-logo-nav{
+    width:40px ;
+    height:25px ;
+
+
+}
+
+.alinhamento{
+    margin-top: -10px;
+}
