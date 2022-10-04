@@ -1,62 +1,81 @@
 .bg-home{
+
+  background-image: url(https://i.imgur.com/L7pUil2.jpg);
+  background-repeat: no-repeat;
+  width: 100vh;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.txt-home{
+  position: absolute;
+  width: 592px;
+  height: 247px;
+  left: 550px;
+  top: 300px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*CSS que foi utilizado na estilização anterior. Manterei até o final do projeto
+
+/*.bg-home{
   position: absolute;
   width: 1440px;
   height: 938px;
-  /*left: calc(48% - 1440px/2);*/
+  left: calc(48% - 1440px/2);
   
   
-  background: #130608;
+    background: #130608;
   
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    
-  }
+  }*/
 
-  .grid-container{
+  /*.grid-container{
 
     position: relative;
     width: 100vw;
     height: 100vh;
   }
  
-  .box-robo{
+  /*.box-robo{
 
   position: absolute;
-  left: 0px;
-  top: 100px;
+  left: -170px;
+  top: 20px;
   
 
   }
 
   .img-robo{
 
-    width: 1200px;
-    height: 400px;
+    width: 1000px;
+    height: 600px;
     
     border-radius: 10px;
-  }
+  }*/
 
-
-  .txt-home{
-    position: absolute;
-    width: 592px;
-    height: 247px;
-    left: 800px;
-    top: 220px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 48px;
-  text-align: center;
-
-  color: #FFFFFF;
- 
-
-  }
-
-
-  .button {
+ /* .button {
     
     font-size: 15px;
     padding: 0.7em 2.7em;
@@ -102,8 +121,8 @@
     position: absolute;
     width: 214px;
     height: 41px;
-    left: 1010px;
+    left: 1040px;
     top: 323px;
 
 
-   }
+   }*/

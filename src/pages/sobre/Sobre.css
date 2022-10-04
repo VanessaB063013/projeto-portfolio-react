@@ -1,0 +1,37 @@
+.img-perfil-sobre{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+.position-img-perfil{
+    margin-top: 100px;
+    margin-left: 10px;
+
+
+}
+
+.bg-sobre{
+    background-color: #292929;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.txt-sobre{
+    color: #fff;
+}
+
+.alinhamento-txt-home{
+
+    margin-left: -500px!important ;
+    margin-top: 130px!important;
+}
+
+
+
+
+/*paleta de cores
+    #7a7a7a, #666666, #525252, #3d3d3d, #292929, #000000
+*/

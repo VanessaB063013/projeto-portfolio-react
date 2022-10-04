@@ -17,8 +17,8 @@ function Navbar() {
             <AppBar position="static">
                 <Toolbar style={{ display: "flex" }}>
 
-                    <Box className="margem alinhamento">
-                        <img src="https://i.imgur.com/k6jDg8B.png" className="img-logo-nav"/>
+                    <Box className="margem alinhamento ">
+                        <img src="https://i.imgur.com/Qb47bX3.png" className="img-logo-nav margem-img"/>
                     </Box>
                     
 
@@ -32,42 +32,35 @@ function Navbar() {
                         </Box>
                     </Link>
 
-                    <Link to='/about' className='text-decorator-none'>
+                    <Link to='/sobre' className='text-decorator-none'>
                         <Box>
                             <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer" }}>
-                                about me
+                                sobre
                             </Typography>
                         </Box>
                     </Link>
 
-                    <Link to='/technology' className='text-decorator-none'>
+                    <Link to='/tecnologias' className='text-decorator-none'>
                         <Box>
                             <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer" }}>
-                                technologies
+                                tecnologias
                             </Typography>
                         </Box>
                     </Link>
 
-                    <Link to='/feedback' className='text-decorator-none'>
+
+                    <Link to='/projetos' className='text-decorator-none'>
                         <Box>
                             <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer" }}>
-                                feedbacks
+                                projetos
                             </Typography>
                         </Box>
                     </Link>
 
-                    <Link to='/projects' className='text-decorator-none'>
+                    <Link to='/contatos' className='text-decorator-none'>
                         <Box>
                             <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer" }}>
-                                projects
-                            </Typography>
-                        </Box>
-                    </Link>
-
-                    <Link to='/contact' className='text-decorator-none'>
-                        <Box>
-                            <Typography variant="h6" color="inherit" className='menu' style={{ cursor: "pointer" }}>
-                                contact me
+                                contatos
                             </Typography>
                         </Box>
                     </Link>

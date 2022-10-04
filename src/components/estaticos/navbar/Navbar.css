@@ -1,6 +1,6 @@
 .MuiAppBar-colorPrimary {
     color: #fff;
-    background-color: #130608 !important;
+    background-color: #000 !important;
 }
 
 .menu{
@@ -23,17 +23,22 @@
 }
 
 .margem{
-    margin-right: 48%!important;
+    margin-right: 60%!important;
 
 }
 
 .img-logo-nav{
-    width:40px ;
-    height:25px ;
+    width:90px ;
+    height:50px ;
 
 
 }
 
 .alinhamento{
     margin-top: -10px;
+}
+
+.margem-img{
+ 
+    margin-left: -30px;
 }
